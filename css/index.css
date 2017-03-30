@@ -54,50 +54,7 @@ nav li a:hover {
 	color: #de0202;
 }
 
-main {
-text-align: center;
-}
 
-#why_main{
-    padding-top:400px;
-    position: relative;
-    height:300px;
-}
-
-. {
-     width:150px; 
-     height:150px; 
-     float:left; 
-     margin-left:200px;
-     padding-top:60px;
-}
-
-#tonuv{
-	line-height: 1.5;
-	padding: 30px;
-}
-
-#anti_grav{
-    line-height: 1.5;
-	padding: 30px;
-}
-
-#glass{
-    line-height: 1.5;
-	padding: 30px;
-}
-
-#our_work{
-    line-height: 1.5;
-	padding: 30px;
-	border-bottom-style: solid;
-}
-
-#table{
-    padding-top: 50px;
-    width: 600px;
-    height:auto;
-    margin-left:400px;
 }
 
 figure{
