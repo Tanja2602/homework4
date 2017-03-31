@@ -6,7 +6,7 @@
  body {
     max-width: 1100px;
     margin: 0 auto;
-    background-color: #f8efe7;
+    background-color: #e6bae8;
     display: flex;
     flex-flow: column wrap
    
@@ -81,49 +81,4 @@ main {
     padding: 20px;
 }
 
-#gallery {
-    height: 360px;
-}
-#gallery_info {
-    height: 800px;
-    background-image: url("../img/background_info.gif");
-    background-size: 100% 800px;
-}
 
-#gallery img {
-    height: 70%;
-    width: 30%;
-    padding-top: 25px;
-}
-
-#info {
-    height: 450px;
-    color: white;
-#portfolio {
-    text-align: center;
-}
-#info, #gallery {
-    color: white;
-}
-section {
-    text-align: center;
-}
-h2 {
-    font-size: 40px;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-#info, #gallery {
-    color: white;
-}
-section {
-    text-align: center;
-}
-info, #gallery {
-    color: white;
-}
-section {
-    text-align: center;
-}
