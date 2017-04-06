@@ -61,6 +61,10 @@ header h3 {
     padding-right: 8%;
     color: purple;
 }
+#service h2 {
+    font-family:cursive;
+    font-size: 25px;
+}
 header input {
     height: 30px;
     width: 200px
@@ -69,8 +73,9 @@ header input {
      float: left;
  }
  .heading {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    font-family: cursive;
  }  
 #lash.container{
     float: right;
@@ -99,6 +104,12 @@ header input {
     font-size: 25px;
     text-align:center;
 }
+#gallery img {
+    width: 300px;
+    height: 270px;
+    padding-top: 25px;
+}
+
 #contact.container {
        float: left;
 }
@@ -113,7 +124,7 @@ header input {
     text-align:right;
 }
 #contact li{
-font-family:cursive;
+    font-family:cursive;
     font-size: 25px;
     text-align:right;
     }
