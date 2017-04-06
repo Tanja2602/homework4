@@ -124,15 +124,19 @@ font-family:cursive;
 }
 main {
     text-align: center;
+    padding: 15px;
 }
 #about {
     padding-bottom: 60px;
 }
 
 #about p {
-    column-count: 3;
     padding: 20px;
+    font-size: 1.1em;
+    text-indent: 1.1em;
+    display: block;
 }
+
 #contacts {
     display: flex;
     flex-flow: column wrap;
