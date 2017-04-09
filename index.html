@@ -130,10 +130,6 @@
             <div class="container">
             <h3 class="heading">Контакти</h3>
             <br>
-               <iframe src="https://www.google.com.ua/maps/@49.8471048,23.9645728,3a,75y,85.29h,90t/data=!3m7!1e1!3m5!1sONfetqpjdyj_fwFUG95P-w!2e0!6s%2F%2Fgeo0.
-            ggpht.com%2Fcbk%3Fpanoid%3DONfetqpjdyj_fwFUG95P-w%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D22.
-            709793%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!6m1!1e1">
-            </iframe>
             <p>Наша адреса</p>
             <ul>
                 <li>tbodenko@ukr.net</li>
@@ -148,7 +144,29 @@
                 <li>Неділя: з 9:00 до 15:00 </li>
               </ul>
             </div>
-        </section>
+           <div class="form">
+                <h3>Напишіть нам.</h3>
+                <form method="POST" action="https://formspree.io/
+                tanjuscha2602@mail.ru">
+                <div class="text">
+                <input id="text" name="Client name" placeholder="Name:" 
+                type="text">
+                </div>
+                <br>
+                <label>
+                    <input name="Client-email" id="email" placeholder="E-mail" 
+                    type="email">
+                </label>
+               <br>
+               <textarea placeholder="Message" id="message"></textarea>
+                <br>
+            <div class="button">
+            <input class="btm-submit" type="submit" value="Надіслати">
+           <input class="btm-reset" type="reset" value="Очистити">
+            </div>
+          </form>
+          </div>
+         </section>
     </main>
     <footer>
          <div>
@@ -171,9 +189,12 @@
            <li>tbodenko@ukr.net</li>
            </ul>
         </div>
-       
-        
     </footer>
+    <script
+     src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="js/form.js"></script>
 </body>
 
 </html>
