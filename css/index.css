@@ -183,9 +183,11 @@ select, textarea {
     color: inherit;
 }
 * footer {
-    height:150px;
+    width: 100%;
+    height:200px;
     background-color:purple;
     }
+
  .icon {
     width: 40px;
     height: 40px;
@@ -197,11 +199,34 @@ select, textarea {
 .icon {
     width: 40px;
     height: 40px;
-   
 }
- #block {
-     display: flex;
-align-items: flex-start;
-justify-content: center;
+.info {
+    height: 100px;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+  
+}
+.info > ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+.social {
+    margin: auto;
+    height: 70px;
+    width: 100%;
+    list-style-type: none;
+    text-align: right;
+    padding:0;
+}
+.social > ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    text-align: right;
+}
+
      
- }
